@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #198754;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #393939;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.637);
+}
+
+.intro {
+  height: 100%;
+  border: 0;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.table-scroll {
+  border-radius: 0.5rem;
+}
+
+thead {
+  top: 0;
+  position: sticky;
+}
